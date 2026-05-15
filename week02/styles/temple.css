@@ -1,0 +1,81 @@
+header p {
+    background-color: rgb(39, 39, 38);
+    color: white;
+    border: 2px solid black;
+    text-align: center;
+    padding: 6px;
+    font-size: 25px;
+    margin: 10px;
+    font-style: normal;
+}
+
+h1 {
+    text-align: center;
+    margin: 15px;
+
+}
+
+picture img {
+    max-width: 355px;
+
+    margin: 0px 0px 20px 140px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px 3px black;
+}
+
+.about {
+    max-width: 300px;
+    background-color: rgb(211, 211, 210);
+    border: 2px rgb(3, 3, 3);
+    margin: 0px 0px 20px 140px;
+    font-style: normal;
+    padding: 30px;
+    text-align: start;
+
+}
+
+.about h2 {
+    border-bottom: 1px solid black;
+    margin: 0px 0px 7px 0px;
+    text-align: start;
+    padding: 0px 0px 7px;
+}
+
+.info {
+    max-width: 300px;
+    background-color: rgb(211, 211, 210);
+    border: 2px rgb(3, 3, 3);
+    margin-left: 140px;
+    margin-top: 10px;
+    font-style: normal;
+    padding: 30px;
+    text-align: start;
+}
+
+.info h2 {
+    border-bottom: 1px solid black;
+    margin-bottom: 7px;
+    text-align: start;
+    padding-bottom: 7px;
+}
+
+.info ul {
+    text-align: left;
+    margin-left: 1px;
+}
+
+.about p {
+    text-align: start;
+    margin-left: 20px;
+}
+
+footer p {
+    background-color: rgb(39, 39, 38);
+    color: white;
+    border: 2px solid black;
+    text-align: center;
+    padding: 6px;
+    font-size: 25px;
+    margin: 10px;
+    font-style: normal;
+}
