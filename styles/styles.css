@@ -1,6 +1,7 @@
 :root {
-    --primary-color: darkblue;
-    --secondary-color: rgb(21, 11, 77);
+    --primary-color: #BDD8E9;
+    --secondary-color: #49769F;
+    --text-color: #001D39;
 }
 
 * {
@@ -10,21 +11,23 @@
 }
 
 nav {
-    background-color: (--primary-color);
-    border: 3px solid rgb(110, 103, 103);
+    background-color: var(--primary-color);
+    border: 3px solid rgb(166, 186, 212);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: var(--text-color);
     display: block;
     padding: 10px;
 }
 
 h1 {
-    color: (--primary-color);
-    border-bottom: 3px solid rgb(67, 67, 88);
+    color: var(--secondary-color);
+    border-bottom: 3px solid rgb(41, 78, 158);
     padding-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 main img {
@@ -34,10 +37,12 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    margin-left: 5px;
 }
 
-p {
+main p {
     padding: 0px;
+    color: var(--text-color);
 }
 
 main {
@@ -46,7 +51,6 @@ main {
 
 aside {
     width: 20rem;
-    color: (--secondary-color);
     text-align: center;
     position: relative;
 }
@@ -59,6 +63,7 @@ aside h2 {
     position: absolute;
     top: 20px;
     left: 110px;
+    color: rgb(129, 103, 103);
 }
 
 aside img {
@@ -79,7 +84,11 @@ footer {
 .box {
     margin: 1rem;
     padding: 1rem;
-    background-color: (var(--primary-color));
-    border: 2px solid black;
+    background-color: var(--primary-color);
+    border: 2px solid rgb(93, 151, 218);
     color: rgb(36, 34, 34);
+}
+
+.box li {
+    margin-left: 10px;
 }
