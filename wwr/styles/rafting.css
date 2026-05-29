@@ -56,14 +56,14 @@ article {
     padding: 8px;
 }
 
-.socialmedia a {
+.socialmedia1 a {
     text-decoration: none;
     display: block;
     border: rgb(31, 41, 175) solid 1px;
     padding: 10px;
 }
 
-.socialmedia {
+.socialmedia1 {
     display: flex;
     grid-column: 2 / 4;
     justify-content: space-between;
