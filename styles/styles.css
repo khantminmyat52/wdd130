@@ -10,16 +10,25 @@
     box-sizing: border-box;
 }
 
+header,
+.grid footer {
+    max-width: 840px;
+    height: auto;
+}
+
 nav {
     background-color: var(--primary-color);
     border: 3px solid rgb(166, 186, 212);
     padding: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 
 nav a {
     color: var(--text-color);
     display: block;
     padding: 10px;
+    text-decoration: none;
 }
 
 h1 {
@@ -28,6 +37,11 @@ h1 {
     padding-bottom: 5px;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
 }
 
 main img {
@@ -47,12 +61,15 @@ main p {
 
 main {
     max-width: 840px;
+    grid-column: 2/3;
 }
 
 aside {
     width: 20rem;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside p {
