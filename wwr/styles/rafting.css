@@ -210,7 +210,8 @@ form {
 
 .location {
     grid-column: 1/2;
-    width: 400px;
+    width: 100%;
+    height: 100%;
 }
 
 .poll {
@@ -246,7 +247,7 @@ input[type="email"] {
 .form-gmail,
 .form-group,
 .form-textarea,
-.newsletter,
+.sub,
 .btm-form {
     margin-top: 15px;
 }
