@@ -83,7 +83,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -200,26 +200,27 @@ form {
     margin-bottom: 10px;
 }
 
+.contact-info h1 {
+    margin-top: 10px;
+}
+
 .contact-info p {
     margin: 2px;
 }
 
 .location {
     grid-column: 1/2;
+    width: 400px;
 }
 
 .poll {
     grid-column: 2/3;
 }
 
-.location {
-    width: 400px;
-}
-
 input[type="text"],
 textarea,
 input[type="email"] {
-    width: 50%;
+    width: 70%;
     padding: 5px;
     border: 2px solid black;
     border-radius: 2px;
@@ -237,10 +238,27 @@ input[type="email"] {
     margin-top: 2px;
 }
 
-.last-hero p {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-    background-color: var(--accent2-color);
-    text-align: center;
-    padding: 7px;
+.last-hero {
+    border: 2px solid black;
+}
+
+.form-username,
+.form-gmail,
+.form-group,
+.form-textarea,
+.newsletter,
+.btm-form {
+    margin-top: 15px;
+}
+
+.btm-form {
+    display: block;
+    width: 70%;
+    padding: 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.btm-form:hover {
+    background-color: #495db6;
 }
