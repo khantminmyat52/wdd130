@@ -31,7 +31,7 @@
         </div>
         <div class="main-holder">
             <div class="location">
-                <iframe
+                <iframe style="border:0"
                   src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d44638.92015148872!2d98.5354478367731!3d8.541986558355642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1smy!2sth!4v1780760610889!5m2!1smy!2sth"
                   width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade">
@@ -48,20 +48,25 @@
                         <input type="email" id="email" name="email"
                           placeholder="khantminmyat151@gamil.com">
                     </div>
-                    <label for="purpose" class="purpose-label">Message Purpose</label>
-                    <div class="radio-pp">
-                        <input type="radio" id="purpose" name="purpose" value="general">General
-                        Inquiry
+                    <div class="form-group radio-container">
+                        <label>Message Purpose</label>
+
+                        <div class="radio-option">
+                            <input type="radio" id="general" name="purpose" checked>
+                            <label for="general">General Inquiry</label>
+                        </div>
+
+                        <div class="radio-option">
+                            <input type="radio" id="reservation" name="purpose">
+                            <label for="reservation">Reservation Question</label>
+                        </div>
+
+                        <div class="radio-option">
+                            <input type="radio" id="website" name="purpose">
+                            <label for="website">Website Suggestion</label>
+                        </div>
                     </div>
-                    <div class="radio-pp">
-                        <input type="radio" id="purpose" name="purpose"
-                          value="reservation">Reservation
-                        Question
-                    </div>
-                    <div class="radio-pp">
-                        <input type="radio" id="purpose" name="purpose" value="suggestion">Website
-                        suggestion
-                    </div>
+
 
                     <label for="message" class="form-textarea">Message</label>
                     <div class=" form-textarea">
@@ -77,7 +82,7 @@
             </div>
         </div>
         <section class="last-hero">
-            <h2>We Are Here To Serve You</h2>
+            <p>We Are Here To Serve You</p>
             <div class="flexbox">
                 <figure>
                     <img src="images/adventure_pic1.webp" alt="Rafting picture">

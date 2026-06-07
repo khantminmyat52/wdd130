@@ -200,12 +200,6 @@ form {
     margin-bottom: 10px;
 }
 
-.contact-info h1 {
-    width: 500px;
-    background-color: rgba(255, 255, 255, 0.253);
-    color: black;
-}
-
 .contact-info p {
     margin: 2px;
 }
@@ -231,35 +225,22 @@ input[type="email"] {
     border-radius: 2px;
 }
 
-.form-username {
-    margin-bottom: 15px;
+.radio-container {
+    gap: 10px;
 }
 
-.form-gmail {
-    margin-bottom: 15px;
+.radio-option,
+.check-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 2px;
 }
 
-.form-textarea {
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.radio-pp {
-    margin-bottom: 10px;
-}
-
-.sub {
-    margin-bottom: 15px;
-}
-
-.btm-form {
-    width: 50%;
-}
-
-.btm-form:hover {
-    background-color: #055a05;
-}
-
-.last-hero {
-    border: 2px solid black;
+.last-hero p {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    background-color: var(--accent2-color);
+    text-align: center;
+    padding: 7px;
 }
